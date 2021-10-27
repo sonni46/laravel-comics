@@ -14,7 +14,12 @@
     </div>
     <div>
         <div>
-            
+            @foreach ($stiCards as $item)
+            <div>
+                <img src='{{asset("{$item['img']}")}}' alt="">
+                <span>{{$item["title"]}}</span>
+            </div>
+            @endforeach
         </div>
     </div>
 </main>

@@ -14,23 +14,16 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    $array_comics = config("comics");
+    $array_comics = config("dbApp.comics");
+    $array_footer = config("dbApp.infoFooter");
+    $header_menu = config("dbApp.menu");
+    $cards = config("dbApp.cards");
     $data = 
     [
         "comics" => $array_comics,
-        "menu"   => [
-            "CHARACTERS",
-            "COMICS",
-            "MOVIES",
-            "TV",
-            "GAMES",
-            "COLLECTIBLES",
-            "VIDEOS",
-            "FANS",
-            "NEWS",
-            "SHOP",
-                    ],
-                
+        "menu"   => $header_menu,
+        "stiCards" => $cards,
+        "footerInfo" => $array_footer,        
 
     ];
     return view('home', $data);
