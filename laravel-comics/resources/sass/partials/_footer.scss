@@ -1,0 +1,29 @@
+@import "partials/vars";
+
+footer {
+    background-image: url('../img/footer-bg.jpg');
+    background-size: cover;
+    .foot {
+        display: flex;
+        justify-content: space-around;
+        h3 {
+            color: $white;
+        }
+        a {
+            color: $grey;
+            text-decoration: none;
+        }
+        .bg-logo{
+            padding: 50px;
+            width: 100%;
+            display: flex;
+            background-image: url('../img/dc-logo-bg.png');
+            background-repeat: no-repeat;
+            background-position: right center;
+        }
+        .info {
+            margin: 20px;
+        }
+    }
+}
+

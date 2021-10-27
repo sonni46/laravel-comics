@@ -42,5 +42,16 @@
     }
 }
 
+.d-flex {
+    display: flex;
+    justify-content: flex-end;
+}
 
+.color-wh{
+    color: $white;
+}
+
+.mar-rg {
+    margin-right: 20px;
+}
 

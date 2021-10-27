@@ -1,8 +1,8 @@
 
 <header class="">
     <div class="bg-blueL">
-        <div class="container">
-            <span>DC POWER VISA</span>
+        <div class="container d-flex color-wh">
+            <span class="mar-rg ">DC POWER VISA</span>
             <span>ADDITIONAL DC SITES</span>
         </div>
     </div>

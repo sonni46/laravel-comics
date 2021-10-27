@@ -1,7 +1,7 @@
 @import "partials/vars";
 
 .background-black {
-    background-color:#303030 ;
+    background-color:$blackLi;
 }
 
 .cdComicImg {
@@ -32,12 +32,12 @@
          span {
             padding: 10px 50px;
             color: white;
-            background-color: #0c7cec;
+            background-color: $blueLi;
         }
 }
 
 .background-blu-light{
-    background-color: #0c7cec;
+    background-color: $blueLi;
 }
 
 .comics {

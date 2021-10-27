@@ -28,7 +28,7 @@
 }
 
 .bg-blueL {
-  background-color: #346edb;
+  background-color: #0c7cec;
 }
 
 .jumbo img {
@@ -38,6 +38,19 @@
      object-fit: cover;
   -o-object-position: top;
      object-position: top;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.color-wh {
+  color: white;
+}
+
+.mar-rg {
+  margin-right: 20px;
 }
 
 .background-black {
@@ -97,4 +110,31 @@
 }
 .comics div img {
   width: 2.5vw;
+}
+
+footer {
+  background-image: url("../img/footer-bg.jpg");
+  background-size: cover;
+}
+footer .foot {
+  display: flex;
+  justify-content: space-around;
+}
+footer .foot h3 {
+  color: white;
+}
+footer .foot a {
+  color: #858585;
+  text-decoration: none;
+}
+footer .foot .bg-logo {
+  padding: 50px;
+  width: 100%;
+  display: flex;
+  background-image: url("../img/dc-logo-bg.png");
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+footer .foot .info {
+  margin: 20px;
 }

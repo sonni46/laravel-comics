@@ -1,15 +1,19 @@
 <footer>
-    <div>
-        @foreach ($footerInfo as $key => $items)
-            <div>
-                <h3>{{$items["title"]}}</h3>
-                @foreach ($items["info"] as $item)
-                    <span>{{$item["text"]}}</span> <br>
-                @endforeach
+    <div class="foot">
+        <div class="container">
+            <div class="bg-logo">
+            @foreach ($footerInfo as $key => $items)
+                <div class="info">
+                    <h3>{{$items["title"]}}</h3>
+                    @foreach ($items["info"] as $item)
+                        <span><a href="">{{$item["text"]}}</a></span> <br>
+                    @endforeach
+                </div>
+            @endforeach  
             </div>
-        @endforeach
+        </div>
     </div>
-    <div>
+    <div class="background-black">
         <div>
             <span></span>
         </div>
