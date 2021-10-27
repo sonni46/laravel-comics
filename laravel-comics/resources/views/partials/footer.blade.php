@@ -1,9 +1,11 @@
 <footer>
     <div>
-        @foreach ($footerInfo as $item)
+        @foreach ($footerInfo as $key => $items)
             <div>
-                <h3>{{$item["title"]}}</h3>
-                {{-- <span>{{$item["info"]["text"]}}</span> --}}
+                <h3>{{$items["title"]}}</h3>
+                @foreach ($items["info"] as $item)
+                    <span>{{$item["text"]}}</span> <br>
+                @endforeach
             </div>
         @endforeach
     </div>

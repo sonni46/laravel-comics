@@ -1,13 +1,15 @@
 <main>
-    <div>
-       @foreach ($comics as $item)
-           <div>
+    <div class="background-black">
+      <div class="cdComicImg container">
+        @foreach ($comics as $item)
+           <div class="img-comics">
                <div>
                     <img src="{{$item["thumb"]}}" alt="">
                </div>
-               <span>{{$item["title"]}}</span>
+               <h3>{{$item["title"]}}</h3>
            </div>
        @endforeach
+        </div>
     </div>
     <div>
         <span>LOAD</span>

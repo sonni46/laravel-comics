@@ -1,10 +1,12 @@
 
-<header>
-    <div>
-        <span>DC POWER VISA</span>
-        <span>ADDITIONAL DC SITES</span>
+<header class="">
+    <div class="bg-blueL">
+        <div class="container">
+            <span>DC POWER VISA</span>
+            <span>ADDITIONAL DC SITES</span>
+        </div>
     </div>
-    <div>
+    <div class="menu container">
         <div>
             <img src="{{asset('img/dc-logo.png')}}" alt="">
         </div>
@@ -15,5 +17,8 @@
             @endforeach
             </ul>
         </div>
+    </div>
+    <div class="jumbo background-black">
+        <img src="{{asset('img/jumbotron.jpg')}}" alt="">
     </div>
 </header>
