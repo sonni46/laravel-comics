@@ -24,3 +24,36 @@
         object-position: top;
     }
 }
+
+.loadMore {
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 25px;
+         span {
+            padding: 10px 50px;
+            color: white;
+            background-color: #0c7cec;
+        }
+}
+
+.background-blu-light{
+    background-color: #0c7cec;
+}
+
+.comics {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    div {
+        display: inline-flex;
+        align-items: center;
+        color: white;
+        span {
+            margin-left: 10px;
+        }
+        img {
+            width: 2.5vw;
+        }
+    }
+}

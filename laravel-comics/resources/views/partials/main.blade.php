@@ -10,18 +10,22 @@
            </div>
        @endforeach
         </div>
+        <div class="loadMore">
+            <span>LOAD</span>
+        </div>
     </div>
     <div>
-        <span>LOAD</span>
-    </div>
-    <div>
-        <div>
-            @foreach ($stiCards as $item)
-            <div>
-                <img src='{{asset("{$item['img']}")}}' alt="">
-                <span>{{$item["title"]}}</span>
+        <div class="background-blu-light">
+            <div class="container">
+                <div class="comics">
+                    @foreach ($stiCards as $item)
+                    <div>
+                        <img src='{{asset("{$item['img']}")}}' alt="">
+                        <span>{{$item["title"]}}</span>
+                    </div>
+                    @endforeach
+                </div>
             </div>
-            @endforeach
         </div>
     </div>
 </main>

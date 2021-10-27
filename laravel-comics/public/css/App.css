@@ -65,3 +65,36 @@
   -o-object-position: top;
      object-position: top;
 }
+
+.loadMore {
+  text-align: center;
+  margin-top: 20px;
+  padding-bottom: 25px;
+}
+.loadMore span {
+  padding: 10px 50px;
+  color: white;
+  background-color: #0c7cec;
+}
+
+.background-blu-light {
+  background-color: #0c7cec;
+}
+
+.comics {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px;
+}
+.comics div {
+  display: inline-flex;
+  align-items: center;
+  color: white;
+}
+.comics div span {
+  margin-left: 10px;
+}
+.comics div img {
+  width: 2.5vw;
+}
