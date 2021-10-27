@@ -14,15 +14,26 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('layouts.app');
+    $array_comics = config("comics");
+    $data = 
+    [
+        "comics" => $array_comics,
+        "menu"   => [
+            "CHARACTERS",
+            "COMICS",
+            "MOVIES",
+            "TV",
+            "GAMES",
+            "COLLECTIBLES",
+            "VIDEOS",
+            "FANS",
+            "NEWS",
+            "SHOP",
+                    ],
+                
+
+    ];
+    return view('home', $data);
 });
 
-// Route::get('', function () {
-//     $array_comics = config("comics");
-//     $data = 
-//     [
-//         "comics" => $array_comics,
-//     ];
-//     return view('db',$data);
-// });
 

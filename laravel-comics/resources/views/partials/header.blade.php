@@ -6,10 +6,14 @@
     </div>
     <div>
         <div>
-            <img src="" alt="">
+            <img src="{{asset('img/dc-logo.png')}}" alt="">
         </div>
         <div>
-
+            <ul>
+            @foreach ($menu as $item)
+               <li><a href="">{{$item}}</a></li> 
+            @endforeach
+            </ul>
         </div>
     </div>
 </header>
