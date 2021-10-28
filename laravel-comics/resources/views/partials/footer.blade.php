@@ -13,20 +13,20 @@
             </div>
         </div>
     </div>
-    <div class="background-black">
+    <div class="follow background-black d-flex justify-content-space-around align-items-center">
         <div>
-            <span></span>
+            <span class="sing-button ">SIGN-UP NOW!</span>
         </div>
-        <div>
-            <div>
-                <span></span>
+        <div class="d-flex align-items-center">
+            <div class="us">
+                <span class="mar-rg">FOLLOW US</span>
             </div>
             <div>
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
+                <img src="{{asset('img/footer-facebook.png')}}" alt="">
+                <img src="{{asset('img/footer-twitter.png')}}" alt="">
+                <img src="{{asset('img/footer-youtube.png')}}" alt="">
+                <img src="{{asset('img/footer-pinterest.png')}}" alt="">
+                <img src="{{asset('img/footer-periscope.png')}}" alt="">
             </div>
         </div>
     </div>
